@@ -66,21 +66,6 @@ Otras decisiones del modelo:
 
 La lista de adyacencia se usó en lugar de una matriz porque la red es dispersa: la mayoría de las personas no se relacionan entre sí, y cada arista necesita recordar su tipo. Una matriz convendría si casi todos estuvieran conectados o si se consultara con mucha frecuencia la existencia de una relación entre cualquier par. La estructura se eligió según las condiciones de este caso, no como una solución única para cualquier problema.
 
-## Cómo ejecutarlo
-
-Desde la carpeta `APE4`, con JDK 17 o superior:
-
-```powershell
-javac -encoding UTF-8 -d bin src/modelo/*.java src/estructuras/*.java src/app/*.java src/pruebas/*.java
-java -cp bin app.Main
-```
-
-La secuencia automática de la Tabla 3 y las pruebas quedan aparte del menú:
-
-```powershell
-java -cp bin app.Main secuencia
-java -cp bin app.Main pruebas
-```
 
 ## Estructura
 
